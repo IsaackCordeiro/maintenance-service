@@ -55,7 +55,7 @@ exports.update = async (req, res) => {
   } catch (error) {
     res.status(400).json({erro: error.message});
   }
-}
+};
 
 exports.delete = async (req, res) => {
   try {
@@ -64,4 +64,4 @@ exports.delete = async (req, res) => {
   } catch (error) {
     res.status(400).json({erro: error.message});
   }
-}
+};

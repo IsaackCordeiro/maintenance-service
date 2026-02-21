@@ -44,4 +44,4 @@ exports.delete = async (idMaintenance, usuario_id) => {
   }
 
   return affectedRows;
-}
+};

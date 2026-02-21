@@ -44,4 +44,4 @@ exports.delete = async (idMaintenance, usuario_id) => {
   const [result] = await db.query(sql, [idMaintenance, usuario_id]);
 
   return result.affectedRows;
-}
+};

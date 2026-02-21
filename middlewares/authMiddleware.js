@@ -15,7 +15,7 @@ exports.verificarToken = (req, res, next) => {
     req.user = payload;
 
     next();
-  } catch (error) {
+  } catch {
     return res.status(403).json({ mensagem: 'Token inválido ou expirado.' });
   }
 };
